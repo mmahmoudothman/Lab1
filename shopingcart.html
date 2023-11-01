@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="./css/shoping.css">
+</head>
+
+<body>
+
+
+    <!-- header -->
+    <div id="header">
+        <img src="./images/shop-icon.webp" width="100px" height="100px">
+        <div id="header_title">Welcome Mahmoud</div>
+        <div id="logout">logout</div>
+    </div>
+    <hr>
+    <!-- table  -->
+    <table>
+        <caption>Product List</caption>
+
+        <tr>
+            <th>Name</th>
+            <th>Price</th>
+            <th>Stock</th>
+            <th>Action</th>
+        </tr>
+        <tr>
+            <td>NodeJS</td>
+            <td>9.99</td>
+            <td>8</td>
+            <td><img src="/images/add_to_cart.jpg" width="16px" height="16px"></td>
+        </tr>
+        <tr>
+            <td>React</td>
+            <td>19.99</td>
+            <td>5</td>
+            <td><img src="/images/add_to_cart.jpg" width="16px" height="16px"></td>
+        </tr>
+        <tr>
+            <td>Angular</td>
+            <td>99.99</td>
+            <td>13</td>
+            <td><img src="/images/add_to_cart.jpg" width="16px" height="16px"></td>
+        </tr>
+    </table>
+
+
+    <div id="space-between"></div>
+    <!-- table 2 -->
+    <table>
+        <caption>Your Shipping Cart</caption>
+
+        <tr>
+            <th>Name</th>
+            <th>Price</th>
+            <th>Total</th>
+            <th>Quality</th>
+        </tr>
+        <tr>
+            <td>NodeJS</td>
+            <td>9.99</td>
+            <td>9.99</td>
+            <td>
+                <div id="header">
+                    <img src="/images/minus-sign.jpg" width="16px" height="16px">
+                    <input type="number">
+                    <img src="/images/plus-sign.jpg" width="16px" height="16px">
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td>React</td>
+            <td>29.99</td>
+            <td>290.99</td>
+            <td>
+                <div id="header">
+                    <img src="/images/minus-sign.jpg" width="16px" height="16px">
+                    <input type="number">
+                    <img src="/images/plus-sign.jpg" width="16px" height="16px">
+                </div>
+            </td>
+        </tr>
+        <tr>
+
+            <td colspan="4">Total Price: 300.98</th>
+        </tr>
+    </table>
+</body>
+
+</html>
