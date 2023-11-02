@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="./css/lab4_workshop_registration.css">
+</head>
+
+<body>
+
+    <form action="" method="post" >
+        <div id="header">
+            <div id="intro_title">Welcome Mahmoud</div>
+
+            <select id="header_drop_down" name="action">
+                <option selected disabled>More Action</option>
+                <option>Action1</option>
+                <option>Action2</option>
+                <option>Action3</option>
+                <option>Action4</option>
+            </select>
+        </div>
+        <hr>
+
+        <div class="div_cate">
+
+            <div>
+                <p class="text_title">Register now while seats are available!</p>
+                <div class="div_label_input">
+                    <label>First Name</label>
+                    <input type="text" >
+                </div>
+                <div class="div_label_input">
+                    <label>Last Name</label>
+                    <input type="text">
+                </div>
+                <div class="div_label_input">
+                    <label>Company Institution</label>
+                    <input type="text">
+                </div>
+                <div class="div_label_input">
+                    <label>Address</label>
+                    <input id="textAddress" type="textAddress">
+                </div>
+
+                <div class="div_label_input">
+                    <label>City</label>
+                    <input type="text">
+                </div>
+                <div class="div_label_input">
+                    <label>State /Province / Region</label>
+                    <select name="action">
+                        <option selected disabled>select</option>
+                        <option>US</option>
+                        <option>China</option>
+                        <option>Egypt</option>
+                        <option>Jorden</option>
+                    </select>
+                </div>
+                <div class="div_label_input">
+                    <label>Country</label>
+                    <select name="action">
+                        <option selected disabled>select</option>
+                        <option>US</option>
+                        <option>China</option>
+                        <option>Egypt</option>
+                        <option>Jorden</option>
+                    </select>
+                </div>
+
+                <div class="div_label_input">
+                    <label>Email</label>
+                    <input type="text" name="email" pattern="[a-z0-9._+\- ]+@[a-z0-9.\-]+\.[a-z]{2,3}">
+                </div>
+                <div class="div_label_input">
+                    <label>Phone Number</label>
+                    <input type="text" pattern="\d{10,11}">
+                </div>
+            </div>
+
+            <div>
+                <p class="text_title">Lunch</p>
+                <div class="div_label_input">
+                    <label>Meal Preference</label>
+                    <select name="action">
+                        <option selected disabled>select</option>
+                        <option>Vegetarian</option>
+                        <option>Vegan</option>
+                        <option>Pescatarian</option>
+                        <option>Omnivore</option>
+                    </select>
+                </div>
+                <p class="text_title">Payment Details</p>
+
+                <div class="div_label_input">
+                    <label>Payment Mode</label>
+
+                    <div>
+                        <input type="checkbox" name="Cash" /> Cash
+                        <input type="checkbox" name="Cheque" /> Cheque
+                        <input type="checkbox" name="Demand Draft" /> Demand Draft
+                    </div>
+
+                </div>
+                <div class="div_label_input">
+                    <label>DD/Cheque No.</label>
+                    <input type="text">
+                </div>
+
+                <div class="div_label_input">
+                    <label>Drawn On (Bank Name)</label>
+                    <input type="text">
+                </div>
+                <div class="div_label_input">
+                    <label>Pavable at</label>
+                    <input type="text">
+                </div>
+            </div>
+        </div>
+
+        <div id="button_layout">
+            <input type="submit">
+            <input type="reset">
+        </div>
+    </form>
+
+        <div id="footer">
+            <a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fmmahmoudothman.github.io%2FLab1%2F">
+                <img class="footer_image" src="./images/htmlchecker.png" alt="html validator" />
+            </a>
+
+            <a
+                href="https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fmmahmoudothman.github.io%2FLab1%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en">
+                <img class="footer_image" src="./images/css_checker.png" alt="CSS validator" />
+            </a>
+        </div>
+
+</html>
