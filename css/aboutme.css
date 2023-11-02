@@ -1,0 +1,68 @@
+body {
+    background-color: rgb(126, 108, 74);
+}
+
+#text_intro {
+    font-size: xx-large;
+    color: #2084EB;
+    font-weight: bolder;
+}
+
+h1 {
+    color: white;
+}
+.text_content {
+    color: white;
+}
+
+.charactics {
+    color: white;
+}
+
+.abbr {
+    color: red;
+    text-decoration: underline;
+}
+
+#intro {
+    margin-top: 50px;
+    color: white;
+}
+
+.text_title {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #2084EB;
+    font-size: larger;
+    font-weight: bold;
+}
+
+#description {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-style: italic;
+    color: white;
+}
+
+#header {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content:first baseline;
+    align-items: baseline;
+}
+.header_title{
+    color: white;    
+}
+
+.text_italic {
+    font-size: 16px;
+    font-style: italic;
+}
+
+#footer{
+
+    display: inline;
+    /* flex-flow: ; */
+    /* justify-content:left; */
+    /* align-items:flex-start; */
+}

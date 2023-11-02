@@ -1,19 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-
-    <style>
-        h1{
-            color: blue;
-        }
-
-    </style>
+    <link rel="stylesheet" href="./css/aboutme.css">
 </head>
+
 <body>
-    
-    <h1 >About Mahmoud Ali</h1>
+
+    <p id="text_intro">About Mahmoud Ali</p>
+    <div id="intro">My Name is Mahmoud and I am <span class="charactics"> jolly </span>,<span class="charactics">
+            clumsy</span> and
+        <span class="charactics"> four-eyed </span>
+    </div>
+    <hr>
+
+    <p class="text_title">My class this quarter</p>
+
+    <ul>
+        <li class="text_content"> CSE 451 - Operating Systems </li>
+        <li class="text_content">CSE 471 - Computer Design and Organization</li>
+        <li class="text_content"> PHYS 121 - Physics: Mechanics</li>
+        <li class="text_content"> CSE 498 - Research w/ Prof. Luis Ceze </li>
+    </ul>
+    <p class="text_title">My Favorite Movies</p>
+
+    <p id="description">(I actually don't watch too many movies, so...here goes!)</p>
+
+    <ol>
+        <li class="text_content">The last 30 minutes of Forrest Gump (<a
+                href="https://www.imdb.com/list/ls523796298/?ref_=hm_edcft_ft_nov23_high_1_i" class="abbr">IMDB</a>)
+        </li>
+        <li class="text_content">Star Trek Episode V with Zazu (<a
+                href="https://www.imdb.com/title/tt8002382/?ref_=ttls_li_i" class="abbr">IMDB</a>)</li>
+        <li class="text_content">Fight Club (not really, but I've seen like 3 movies total so this is my 3rd fave by
+            technicality)
+            (<a href="https://www.imdb.com/title/tt2527336/?ref_=hm_tpks_tt_i_5_pd_tp1_pbr_ic" class="abbr">IMDB</a>)
+        </li>
+    </ol>
+
+
+    <p class="text_title">My Moods</p>
+
+    <div id="header">
+        <div class="header_title">happy: </div>
+        <img src="./images/mood2.jpg" width="100px" height="100px">
+        <div class="header_title">sad: </div>
+        <img src="./images/mood1.jpg" width="100px" height="100px">
+    </div>
+
+
+    <p class="text_title">Fun Facts About My Neighbors</p>
+
+    <ul>
+        <li class="text_content">Sue Smith: <span class="text_italic">Effervescent</span> is a word that describes her.
+        </li>
+        <li class="text_content">Bill Thompson: Loves playing <span class="text_italic"> Yu-Gi-Oh.</span></li>
+    </ul>
 </body>
+
+
+
+
+<div id="footer">
+    <a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fmmahmoudothman.github.io%2FLab1%2F">
+        <img src="./images/htmlchecker.png" alt="html validator" height="5%" width="5%" />
+    </a>
+    
+    <a href="https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fmmahmoudothman.github.io%2FLab1%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en">
+        <img src="./images/css_checker.png" alt="CSS validator" height="5%" width="5%" />
+    </a>
+</div>
 </html>
