@@ -68,15 +68,15 @@
 // group.showList();
 
 // 5. apply + wrapper
-let group = {
-    title: "Our Group",
-    students: ["John", "Pete", "Alice"],
-    showList: function () {
-        this.students.forEach((stu) => {
-            (function (student) {
-                console.log(this.title + ": " + student);
-            }).apply(this, [stu]);
-        });
-    }
-};
-group.showList();
+// let group = {
+//     title: "Our Group",
+//     students: ["John", "Pete", "Alice"],
+//     showList: function () {
+//         this.students.forEach((stu) => {
+//             (function (student) {
+//                 console.log(this.title + ": " + student);
+//             }).apply(this, [stu]);
+//         });
+//     }
+// };
+// group.showList();
