@@ -8,5 +8,7 @@ function logMessage() {
 
 logMessage();
 
-// for the node it will be undifiend 
-// for the browser with works fine as it has window and global and var
+/**
+ * 1- node try to make every node class private so there is no global and var doesn't work
+ * 2- for the browser it has window/global so it works 
+ */
