@@ -1,0 +1,31 @@
+GET http://localhost:3000/books
+
+###
+GET http://localhost:3000/books/1
+
+
+###
+POST http://localhost:3000/books
+Content-Type: application/json
+
+{ 
+    "title": "EA", 
+    "ISBN": "444", 
+    "publishedDate": "01/10/2023", 
+    "author": "Paymen" 
+   
+}
+
+###
+PUT http://localhost:3000/books/1
+Content-Type: application/json
+
+{ 
+    "title": "EA1", 
+    "ISBN": "4442", 
+    "publishedDate": "01/12/2023", 
+    "author": "Paymen 2" 
+}
+
+###
+DELETE http://localhost:3000/books/3
